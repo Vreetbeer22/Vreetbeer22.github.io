@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    color: #FFF;
+    background-color: #74B3CE;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h1{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+h2{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+h3{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+h4{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+h5{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: italic ;
+    font-size: 30px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.naast{
+    display: flex;
+    flex-direction: row;
+}
+.onder{
+ display: flex;
+ flex-direction: column;
+}
+.naast_elkaar{
+    display: flex;
+    flex-direction: row;
+}
+.letter_wit{
+    color: #FFF;
+}
+.letter_paars{
+    color: #9337AD;
+}
+.achtergrond_header{
+    height: 120px;
+    width: 100%;
+    background-color: #74B3CE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    background-color: transparent; 
+    position: sticky;
+    top: 0;
+    height: 120px;
+    width: 100%;
+}
+.naam{
+    margin-left: 50px;
+    color: #FFF;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+}
+  .dropdown-content {
+    display: none;
+    top: 60px;
+    right: -30px;
+    position: absolute;
+    background-color: #5F7E8B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  .dropdown-content a:hover {
+    background-color: #74B3CE;
+}
+  .dropdown img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.body_introductie{
+    background-color: #74B3CE;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.tekst_body_introductie{
+    margin-left: 150px;
+    color: #FFF;
+}
+.body_mijnprojecten{
+    background-color: #494947;
+    width: 100%;
+    height: 900px;
+}
+.body_overmij{
+    background-color: #74B3CE;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+}
+.body_contact{
+    background-color: #494947;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    color: #FFF;
+}
+.tekst_body_mijnprojecten{
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #FFF;
+}
+.boxen_projecten{
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.box_projecten_mastermind{
+    background-color: #B9E3C6;
+    width: 550px;
+    height: 300px;
+    border-radius: 30px;
+}
+.box_projecten_meer1{
+    background-color: #B9E3C6;
+    width: 550px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.box_projecten_meer2{
+    background-color: #B9E3C6;
+    width: 550px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: none;
+}
+.projecten_meer{
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+.box_projecten_website{
+    background-color: #B9E3C6;
+    width: 550px;
+    height: 450px;
+    border-radius: 30px;
+}
+.tekst_top_overmij{
+    margin-left: 150px;
+}
+.tekst_body_overmij{
+    line-height: 2  ;
+    margin-top: 30px;
+    color: #FFF;
+}
+.tekst_body_contact{
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.contact_ruimte_klein{
+    width: auto;
+    height: 40px;
+}
+.contact_ruimte_groot{
+    width: auto;
+    height: 80px;
+}
+.projecten_main_box{
+    background-color: #494947;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.projecten_project_box{
+    background-color: #B9E3C6;
+    height: auto;
+    width: 550px;
+    margin: 100px;
+    border-radius: 30px;
+    color: #000;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.java_logo{
+    height: 80px;
+    width: 80px;
+}
+.tekst_midden{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.html_logo{
+    height: 80px;
+    width: 123px;
+}
+.tekst_projecten{
+    padding: 30px;
+}
+.projecten_ruimte_tussen{
+    height: 200px;
+    width: auto;
+}
+.projecten_linkjes{
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.main_logo{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+.info_achtergrond{
+    background-color: #494947;
+    height: auto;
+    width: auto;
+    color: #FFF;
+}
+.informatie_tekstvak{
+    height: auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.ruimte_naast_tekstvak{
+    width: 400px;
+}
+.ruimte_onder_tekstvak{
+    height: 75px;
+}
+.ruimte_onder_informatie{
+    height: 200px;
+}
+.opzij{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+/* afmetingen  1350px */
+@media only screen and (max-width: 1350px) {
+    .projecten_project_box{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+/* afmetingen 1250px  */
+@media only screen and (max-width:1250px) {
+    .projecten_project_box{
+        width: 500px;
+    }
+}
+/* afmetingen  1200px */
+@media only screen and (max-width: 1200px) {
+    .box_projecten_mastermind{
+        width: 400px;
+    }
+    .box_projecten_meer1{
+        width: 400px;
+    }
+    .box_projecten_meer2{
+        width: 400px;
+    }
+    .box_projecten_website{
+        width: 400px;
+    }
+    .boxen_projecten h1{
+        font-size: 45px;
+    }
+    .boxen_projecten h5{
+        font-size: 25px;
+    }
+    .projecten_meer{
+        margin-top: 25px;
+    }
+    .tekst_top_overmij{
+        margin-left: 125px;
+    }
+}
+/* afmetingen 1150 */
+@media only screen and (max-width: 1150px) {
+    .projecten_ruimte_tussen{
+        height: 150px;
+    }
+    .projecten_project_box{
+        width: 450px;
+    }
+    .projecten_main_box h1{
+        font-size: 45px;
+    }
+    .java_logo{
+        height: 60px;
+        width: 60px;
+    }
+    .html_logo{
+        height: 60px;
+        width: 92px;
+    }
+
+}
+/* afmetingen  1100px */
+@media only screen and (max-width: 1100px) {
+    .body_overmij h2{
+        font-size: 25px;
+    }
+}
+/* afmetingen 1050px */
+@media only screen and (max-width:1050px) {
+    .projecten_ruimte_tussen{
+        height: 100px;
+    }
+    .projecten_project_box{
+        width: 400px;
+    }
+    .projecten_project_box{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+/* afmetingen  1000px */
+@media only screen and (max-width: 1000px) {
+    .tekst_top_overmij{
+        margin-left: 100px;
+    }
+    .body_contact h1{
+        font-size: 45px;
+    }
+    .body_contact h2{
+        font-size: 25px;
+    }
+    .body_contact h4{
+        font-size: 35px;
+    }
+    .informatie_tekstvak{
+        width: 750px;
+    }
+    .ruimte_naast_tekstvak{
+        width: 250px;
+    }
+}
+/* afmetingen 950px */
+@media only screen and (max-width: 950px) {
+    .projecten_ruimte_tussen{
+        height: 50px;
+    }
+    .projecten_project_box{
+        width: 350px;
+    }
+    .projecten_main_box h1{
+        font-size: 40px;
+    }
+    .java_logo{
+        height: 50px;
+        width: 50px;
+    }
+    .html_logo{
+        height: 50px;
+        width: 77px;
+    }
+}
+/* afmetingen  900px */
+@media only screen and (max-width: 900px) {
+    .boxen_projecten{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .body_mijnprojecten{
+        height: auto;
+    }
+    .box_projecten_meer1{
+        display: none;
+    }
+    .box_projecten_meer2{
+        display: block;
+        margin-bottom: 50px;
+    }
+    .box_projecten_website{
+        margin-top: 50px;
+    }
+    .tekst_top_overmij{
+        padding: 50px;
+    }
+    .body_overmij h2{
+        font-size: 20px;
+    }
+    .body_contact h2{
+        font-size: 20px;
+    }
+}
+/* afmetingen  850px */
+@media only screen and (max-width: 850px) {
+    .projecten_project_box{
+        width: 300px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .projecten_main_box h2{
+        font-size: 25px;
+    }
+}
+/* afmetingen  800px */
+@media only screen and (max-width: 800px) {
+    .tekst_body_introductie{
+        margin-left: 100px;
+    }
+    footer h5{
+        font-size: 25px;
+    }
+    .tekst_top_overmij{
+        padding: 0;
+        margin-right: 50px;
+    }
+    .tekst_body_contact{
+        display: flex;
+        text-wrap: wrap;
+        text-align: center;
+    }
+    .informatie_tekstvak{
+        width: 600px;
+    }
+    .ruimte_naast_tekstvak{
+        width: 150px;
+    }
+    .ruimte_onder_informatie{
+        height: 40px;
+    }
+}
+/* afmetingen  700px */
+@media only screen and (max-width: 700px) {
+    .ruimte_naast_tekstvak{
+        width: 50px;
+    }
+    .informatie_tekstvak{
+        width: 500px;
+    }
+    .naast_elkaar{
+        flex-direction: column;
+    }
+}
+/* afmetingen  600px */
+@media only screen and (max-width: 600px) {
+    .tekst_body_introductie{
+        margin-left: 20px;
+    }
+    .body_introductie{
+        justify-content: center;
+    }
+    h5{
+        display: flex;
+        text-wrap: wrap;
+        text-align: center;
+    }
+    .ruimte_naast_tekstvak{
+        width: 0px;
+    }
+}
+/* afmetingen  550px */
+@media only screen and (max-width: 550px) {
+    .informatie_tekstvak{
+        width: 400px;
+    }
+    .informatie_tekstvak h2{
+        font-size: 25px;
+    }
+}
+/* afmetingen  500px */
+@media only screen and (max-width: 500px) {
+    .tekst_top_overmij{
+        margin-right: 20px;
+    }
+    .tekst_body_mijnprojecten{
+        margin-left: 0;
+        display: flex;
+        align-self: center;
+    }
+}
+/* afmetingen  450px */
+@media only screen and (max-width: 450px) {
+    .box_projecten_mastermind{
+        width: auto;
+        height: fit-content;
+        margin: 20px;
+        padding-top: 0;
+        text-wrap: wrap;
+    }
+    .box_projecten_website{
+        width: auto;
+        height: fit-content;
+        margin: 20px;
+        padding-top: 0;
+        text-wrap: wrap;
+    }
+    .box_projecten_meer2{
+        width: auto;
+        height: fit-content;
+        margin: 20px;
+        padding-top: 0;
+        text-wrap: wrap;
+    }
+    .main_logo{
+        height: 40px;
+        width: 40px;
+    }
+    .boxen_projecten h1{
+       font-size: 40px; 
+    }
+    .boxen_projecten h2{
+        font-size: 25px; 
+     }
+    .body_overmij{
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .informatie_tekstvak{
+        width: auto;
+    }
+}
+/* afmetingen  400px */
+@media only screen and (max-width: 400px) {
+    .body_contact h4{
+        font-size: 30px;
+    }
+}
